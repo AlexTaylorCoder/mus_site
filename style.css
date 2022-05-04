@@ -1,0 +1,89 @@
+body {
+    height: 2000px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("https://wallpaperaccess.com/full/2219339.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+}
+.noBul {
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0px 5px 5px darkgray; 
+    border-radius: 30px;
+    
+}
+.noBul li {
+    color: lightsteelblue;
+    display: inline;
+    font-size: 150%;
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.pPic {
+    opacity: .8;
+}
+.picLayer {
+    height: 60%;
+    width: 60%;
+    margin-left: 24%;
+    margin-right: auto;
+}
+.fPage {
+    background: linear-gradient(black,lightblue); 
+    margin-top: 3%;
+    height: 33%;
+    padding-top: 5%;
+    border-radius: 10px;
+}   
+
+.sPage {
+    background: lightblue; 
+    border-radius: 10px;
+    top: 33%;
+    height: 33%;
+}
+
+.tPage {
+    background: lightblue;
+    top:66%;
+    height: 33%;
+}
+
+.fPage,.sPage,.tPage {
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+.fpageContent,.spageContent,.tpageContent {
+    padding: 2%;
+}
+.tpageHeader {margin-bottom: 2%;}
+
+h1,h2,h3,h4 {
+  margin:0;
+}
+
+.exp1,.exp2,.exp3,.exp4,.exp5,.exp6,.exp7 {
+    margin-bottom: 2%;
+}
+.fList {
+  width: 50%;
+  float: left;
+  
+}
